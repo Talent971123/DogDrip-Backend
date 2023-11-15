@@ -17,7 +17,7 @@ router.post("/add", async (req: Request, res: Response) => {
   if (result) {
     res.send({ res: result });
   } else {
-    res.send({ res: "fail" });
+    res.send({ res: "fail!" });
   }
 });
 
